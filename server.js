@@ -66,7 +66,7 @@ class Company {
 
 
 
-app.get ("/api/users/new", (reg, res) => {
+app.get ("/api/users/new", (req, res) => {
 
     let newUser = new User();
 
@@ -76,7 +76,7 @@ app.get ("/api/users/new", (reg, res) => {
 
 
 
-app.get ("/api/company/new", (reg, res) => {
+app.get ("/api/company/new", (req, res) => {
 
     let newCompany = new Company();
 
@@ -86,7 +86,7 @@ app.get ("/api/company/new", (reg, res) => {
 
 
 
-app.get ("/api/user/company", (reg, res) => {
+app.get ("/api/user/company", (req, res) => {
 
     let newUser = new User();
 
